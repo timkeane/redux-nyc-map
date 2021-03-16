@@ -1,10 +1,14 @@
 import React from 'react';
 import { Map } from './features/map/Map';
+import { Locator } from './features/locator/Locator';
 import './App.css';
 
 function App() {
   return (
-    <Map />
+    <div>
+      <Map />
+      <Locator />
+    </div>
   );
 }
 

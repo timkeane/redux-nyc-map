@@ -7,7 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ol-zoom button {
+  position: fixed;
+  left: 5px;
+  width: 35px;
+  height: 35px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+.ol-zoom-in {
+  top: 5px;
+}
+.ol-zoom-out {
+  top: 45px;
+}
+.ol-rotate-reset {
+  display: none;
 }
